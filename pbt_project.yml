@@ -1,0 +1,96 @@
+name: DBT_SandwichShoppe
+description: ''
+version: 0.0.1
+author: sparklearner123@gmail.com
+language: sql
+buildSystem: ''
+buildSystemDetails:
+  artefactID: dbt_sandwichshoppe
+  parentArtefactID: ''
+  buildSystem: wheel
+  author: null
+  createdAt: '2023-04-15 18:43:03'
+  modifiedAt: '2023-04-15 18:43:03'
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+functions:
+  author: null
+  createdAt: '2023-04-15 18:43:03'
+  modifiedAt: '2023-04-15 18:43:03'
+  gems: {}
+  udfs: {}
+  udafs: {}
+  expressions: {}
+subgraphs: {}
+sqlModels:
+  .prophecy/metadata/sqlmodels/stg_customers:
+    name: stg_customers
+    description: null
+    author: sparklearner123@gmail.com
+    files:
+    - .prophecy/ide/models/stg_customers.json
+    - DBT_SandwichShoppeH5aBLz6m/models/staging/stg_customers.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+    createdAt: '2023-04-15 18:43:04'
+    modifiedAt: '2023-04-15 18:43:04'
+  .prophecy/metadata/sqlmodels/stg_orders:
+    name: stg_orders
+    description: null
+    author: sparklearner123@gmail.com
+    files:
+    - .prophecy/ide/models/stg_orders.json
+    - DBT_SandwichShoppeH5aBLz6m/models/staging/stg_orders.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+    createdAt: '2023-04-15 18:43:04'
+    modifiedAt: '2023-04-15 18:43:04'
+  .prophecy/metadata/sqlmodels/stg_payments:
+    name: stg_payments
+    description: null
+    author: sparklearner123@gmail.com
+    files:
+    - .prophecy/ide/models/stg_payments.json
+    - DBT_SandwichShoppeH5aBLz6m/models/staging/stg_payments.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+    createdAt: '2023-04-15 18:43:04'
+    modifiedAt: '2023-04-15 18:43:04'
+  .prophecy/metadata/sqlmodels/orders:
+    name: orders
+    description: null
+    author: sparklearner123@gmail.com
+    files:
+    - .prophecy/ide/models/orders.json
+    - DBT_SandwichShoppeH5aBLz6m/models/orders.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+    createdAt: '2023-04-15 18:43:04'
+    modifiedAt: '2023-04-15 18:43:04'
+  .prophecy/metadata/sqlmodels/customers:
+    name: customers
+    description: null
+    author: sparklearner123@gmail.com
+    files:
+    - .prophecy/ide/models/customers.json
+    - DBT_SandwichShoppeH5aBLz6m/models/customers.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+    createdAt: '2023-04-15 18:43:04'
+    modifiedAt: '2023-04-15 18:43:04'
+sqlPipeline:
+  name: sqlPipeline
+  description: null
+  author: sparklearner123@gmail.com
+  createdAt: '2023-04-15 18:43:03'
+  modifiedAt: '2023-04-15 18:43:03'
+dependencies: '[]'
+projectDependencies: {}
+pipelineConfigurations: {}
